@@ -1,0 +1,120 @@
+.calculator {
+	width: 300px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 2px solid #333;
+	border-radius: 10px;
+	text-align: center;
+	transition: background-color 0.5s;
+	background-color: #fff;
+	color: #333;
+}
+
+@media (max-width: 900px) {
+	.calculator {
+		width: 90%;
+	}
+
+	.buttons buttons {
+		width: 30px;
+		height: 30px;
+		font-size: 14px;
+	}
+}
+
+#display {
+	width: 100%;
+	margin-bottom: 10px;
+	font-size: 24px;
+	background-color: #111;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.buttons button {
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.5s, color 0.5s;
+	
+}
+
+.number {
+	background-color: #f0f0f0;
+	color: #333;
+}
+
+.operator {
+	background-color: #ff9900;
+	color: #fff;
+}
+
+.clear {
+	background-color: #ff3333;
+	color: #fff;
+}
+
+.equal {
+	background-color: #33cc33;
+	color: #fff;
+}
+
+.brightness-control {
+	margin-top: 20px;
+}
+
+.dark-mode .calculator {
+	background-color: #333;
+	transition: background-color 0.5s;
+}
+
+.dark-mode #display{
+	background-color: #000;
+	color: #fff;
+}
+
+.dark-mode .buttons button{
+	transition: background-color 0.5s, color 0.5s;
+	color: #f0f0f0;
+}
+
+.dark-mode .number {
+	background-color: #333;
+	color: #f0f0f0;
+}
+
+.dark-mode.operator {
+	background-color: #ff6600;
+	color: #333;
+}
+
+.dark-mode .clear {
+	background-color: #ff0000;
+	color: #333;
+}
+
+.dark-mode .equal {
+	background-color: #00cc00;
+	color: #333;
+}
+
+.darkModeButton {
+	background-color: #fff;
+	color: #333;
+	border: none;
+	border-radius: 5px;
+	padding: 5px 10px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.dark-mode #darkModeButton {
+	background-color: #333;
+	color: #fff;
+}
